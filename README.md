@@ -13,7 +13,7 @@ Original template: [aalborg-university-beamer-theme](https://es.overleaf.com/lat
 For proper functionality, download the main.pdf file and open it with Adobe Reader.
 
 <p align="left">
-    <img src="https://github.com/AlbertoCuadra/beamer_latex_template/blob/master/preview.svg" width="1400" href="https://github.com/AlbertoCuadra/beamer_latex_template/blob/master/main.pdf">
+    <a href="https://github.com/AlbertoCuadra/beamer_latex_template/blob/master/main.pdf" > <img src="https://github.com/AlbertoCuadra/beamer_latex_template/blob/master/preview.svg" width="1400"> </a>
 </p>
 
 # Author
