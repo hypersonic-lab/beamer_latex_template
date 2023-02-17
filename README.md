@@ -4,6 +4,8 @@ A Beamer LaTeX template for presentations. This is a modified version of another
 
 I have been modifying this template since my Bachelor's thesis defense. To see a final result using this template, I have included, as an example, the slides of our recent work ***Linear Theory of Hypersonic Shocks Interacting with Turbulence in Air*** presented in 2023 AIAA SciTech Forum, National Harbor, USA. DOI: [10.2514/6.2023-0075](https://doi.org/10.2514/6.2023-0075).
 
+* Compiler: pdfLaTeX
+
 NOTE: This example includes how to index animations in a PDF file (requires Adobe Reader)
 
 Original template: [aalborg-university-beamer-theme](https://es.overleaf.com/latex/templates/aalborg-university-beamer-theme/vykfxpfdfdrd)
