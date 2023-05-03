@@ -8,6 +8,7 @@
 %
 % Modified by: Alberto Cuadra-Lara (acuadra@ing.uc3m.es) | acuadralara.com
 %
+% Modified again by: Kyle Hanquist (hanquist@arizona.edu)
 % License: GPLv3 (https://www.gnu.org/licenses/gpl-3.0.html)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -16,6 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Set document class: font size, aspectratio (e.g., 1609 or 1610)
 \documentclass[9pt, aspectratio=1609]{beamer}
+%\documentclass[9pt, aspectratio=43]{beamer}
 
 % Setup theme
 \usetheme[
@@ -72,6 +74,7 @@
 \usepackage{adjustbox}
 \usepackage[version=3,arrows=pgf-filled]{mhchem}
 \usepackage{pgfplots}
+%\usepackage{epstopdf}
 
 % Colors | rgb (from 0 to 1) | RGB (from 1 to 255)
 \definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
@@ -147,9 +150,9 @@
 % Define title
 \title[
     % Optional (for long paper titles): title in the sidebar
-    Linear Theory of Hypersonic Shocks Interacting with Turbulence in Air]{
+    Title in Sidebar]{
     % Title in the titlepage
-    \huge Linear Theory of Hypersonic Shocks\\[2mm] Interacting with Turbulence in Air
+    \huge Full\\[2mm] Title
     }
     
 % Define subtitle
@@ -201,17 +204,17 @@ Published by the American Institute of Aeronautics and Astronautics, Inc., with 
 
 % Define logos in the bottom of the titlepage and in the conclusions/key takeaways
 % * Read logos
-\pgfdeclareimage[height=0.7cm]{titlepagelogo1}{figures/logos/logo_AIAA.pdf}
-\pgfdeclareimage[height=0.7cm]{titlepagelogo2}{figures/logos/logo_uc3m.pdf}
-\pgfdeclareimage[height=0.7cm]{titlepagelogo3}{figures/logos/logo_salento.pdf}
-\pgfdeclareimage[height=0.7cm]{titlepagelogo4}{figures/logos/logo_CTR_stanford.pdf}
+\pgfdeclareimage[height=0.9cm]{titlepagelogo1}{figures/logos/logo_AIAA.pdf}
+\pgfdeclareimage[height=0.9cm]{titlepagelogo2}{figures/logos/UA_logo.pdf}
+%\pgfdeclareimage[height=0.7cm]{titlepagelogo3}{figures/logos/logo_salento.pdf}
+%\pgfdeclareimage[height=0.7cm]{titlepagelogo4}{figures/logos/logo_CTR_stanford.pdf}
 % * Include logo
 \titlegraphic{% is placed on the bottom of the title page
   \vspace{0.4cm}
   \href{https://www.aiaa.org/}{\pgfuseimage{titlepagelogo1}}
-  \hspace{1cm}\href{https://www.uc3m.es}{\pgfuseimage{titlepagelogo2}}
-  \hspace{1cm}\href{https://international.unisalento.it}{\pgfuseimage{titlepagelogo3}}
-  \hspace{1cm}\href{https://ctr.stanford.edu/}{\pgfuseimage{titlepagelogo4}}
+  \hfil\href{https://www.uc3m.es}{\pgfuseimage{titlepagelogo2}}
+  %\hspace{1cm}\href{https://international.unisalento.it}{\pgfuseimage{titlepagelogo3}}
+  %\hspace{1cm}\href{https://ctr.stanford.edu/}{\pgfuseimage{titlepagelogo4}}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Document
